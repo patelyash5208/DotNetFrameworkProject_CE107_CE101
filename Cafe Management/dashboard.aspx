@@ -7,33 +7,33 @@
     <title></title>
     <style type="text/css">
         #dashboard {
-            height: 320px;
-            width:680px;
-            margin-left:250px;
-            margin-top:100px;
+            width:1054px;
+            margin-left:50px;
+            margin-top:97px;
+            margin-bottom: 94px;
         }
         
     </style>
 </head>
 <body>
     <form id="dashboard" runat="server">
-        <div style="border-style: solid; border-width: medium; font-size: x-large; height: 320px; width: 680px; background-color: #99CCFF;">
+        <div style="border-style: solid; border-width: medium; font-size: x-large; height: 320px; width: 1000px; background-color: #009933;">
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <br />
             <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Welcome to
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Welcome to
             Sunshine<br />
             <br />
             &nbsp;&nbsp;&nbsp;
             <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="place_order" runat="server" style="" BackColor="#0066FF" BorderColor="Black" BorderStyle="Solid" Text="Place  Order" Height="50px" Width="120px" OnClick="place_order_Click"/>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="place_order" runat="server" style="font-size:large;" BackColor="#0066FF" BorderColor="Black" BorderStyle="Solid" Text="Place  Order" Height="50px" Width="200px" OnClick="place_order_Click"/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="add_items" runat="server" BackColor="#0066FF" BorderColor="Black" BorderStyle="Solid" Text="Add  Items" Height="50px" Width="100px" OnClick="add_items_Click"/>
+            <asp:Button ID="add_items" runat="server" style="font-size:large;" BackColor="#0066FF" BorderColor="Black" BorderStyle="Solid" Text="Add  Items" Height="50px" Width="200px" OnClick="add_items_Click"/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="update_items" runat="server" BackColor="#0066FF" BorderColor="Black" BorderStyle="Solid" Text="Update  Items" Height="50px" Width="120px" OnClick="update_items_Click"/>
+            <asp:Button ID="update_items" runat="server" style="font-size:large;" BackColor="#0066FF" BorderColor="Black" BorderStyle="Solid" Text="Update  Items" Height="50px" Width="200px" OnClick="update_items_Click"/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="remove_items" runat="server" BackColor="#0066FF" BorderColor="Black" BorderStyle="Solid" Text="Remove  Items" Height="50px" Width="120px" OnClick="remove_items_Click"/>
+            <asp:Button ID="remove_items" runat="server" style="font-size:large;" BackColor="#0066FF" BorderColor="Black" BorderStyle="Solid" Text="Remove  Items" Height="50px" Width="200px" OnClick="remove_items_Click"/>
             <br />
         </div>
     </form>

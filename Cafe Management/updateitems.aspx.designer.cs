@@ -24,6 +24,15 @@ namespace Cafe_Management
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
+        /// search_item control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox search_item;
+
+        /// <summary>
         /// item_name control.
         /// </summary>
         /// <remarks>
@@ -51,13 +60,13 @@ namespace Cafe_Management
         protected global::System.Web.UI.WebControls.Label price;
 
         /// <summary>
-        /// TextBox1 control.
+        /// price_value control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox price_value;
 
         /// <summary>
         /// update control.
@@ -67,5 +76,23 @@ namespace Cafe_Management
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button update;
+
+        /// <summary>
+        /// back control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button back;
+
+        /// <summary>
+        /// updateitemgrid control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView updateitemgrid;
     }
 }

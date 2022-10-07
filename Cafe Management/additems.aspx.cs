@@ -11,36 +11,29 @@ namespace Cafe_Management
 {
     public partial class additems : System.Web.UI.Page
     {
+        function fn = new function();
+        String query;
         protected void Page_Load(object sender, EventArgs e)
         {
             
-            
-
         }
 
         protected void add_item_Click(object sender, EventArgs e)
         {
-            try
-            {
-                SqlConnection con = new SqlConnection();
-                con.ConnectionString = ConfigurationManager.ConnectionStrings["connection"].ConnectionString;
-                con.Open();
-                string insert = "insert into items (item_name, price) values (@iname, @price)";
-                SqlCommand com = new SqlCommand(insert, con);
-                com.Parameters.AddWithValue("@iname", itemname_text.Text);
-                com.Parameters.AddWithValue("@price", price_text.Text);
-                com.ExecuteNonQuery();
+            query = "insert into items (item_name,price) values ('"+itemname_text.Text+ "' , '" + price_text.Text + "')";
+            fn.setdata(query);
+            clearall();
+            Response.Write("<script>alert('Item Added Successfully !!!')</script>");
+        }
+        public void clearall()
+        {
+            itemname_text.Text = "";
+            price_text.Text = "";
+        }
 
-                con.Close();
-
-                
-            }
-            catch (Exception ex)
-            {
-                Response.Write("Error:" + ex.Message);
-            }
-            
-            Response.Redirect("allitem.aspx");
+        protected void Back_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("dashboard.aspx");
         }
     }
 }

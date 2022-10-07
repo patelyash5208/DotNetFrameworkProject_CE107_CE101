@@ -15,12 +15,15 @@
             height: 37px;
             margin-left: 0px;
         }
+        .auto-style1 {
+            background-color: #009933;
+        }
     </style>
 </head>
 <body style="height: 365px; width: 943px; margin-left: 121px;">
     <form id="loginform" runat="server">
-        <div style="text-align: center; height: 367px; width: 945px; background-color: #000000">
-            <br />
+        <div style="text-align: center; height: 367px; width: 945px; background-color: #009933">
+            <br class="auto-style1" />
             <br />
             <br />
             <asp:Label ID="username" runat="server" style="color: #FFFFFF; font-size: large;" Text="User Name" Font-Bold="True"></asp:Label>

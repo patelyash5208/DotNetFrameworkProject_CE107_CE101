@@ -38,7 +38,7 @@ namespace Cafe_Management
 
         protected void backitemadd_Click(object sender, EventArgs e)
         {
-            Response.Redirect("additems.aspx");
+            Response.Redirect("dashboard.aspx");
         }
     }
 }

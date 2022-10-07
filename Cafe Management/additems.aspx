@@ -8,7 +8,7 @@
 </head>
 <body>
     <form id="additem" runat="server">
-        <div id="additems" style="border-style: solid; padding: 10px 20px 10px 20px; margin: 30px 250px 30px 250px; font-size: x-large; background-color: #33CC33; height: 500px; text-align: center;">
+        <div id="additems" style="border-style: solid; padding: 10px 20px 10px 20px; margin: 30px 250px 30px 250px; font-size: x-large; background-color: #009933; height: 500px; text-align: center;">
             <br />
             ADD&nbsp; NEW&nbsp; ITEM<br />
             <br />
@@ -25,6 +25,8 @@
             <br />
             <br />
             <asp:Button ID="add_item" runat="server" Height="70px" Text="Add  Item" Width="300px" style="font-size:x-large" OnClick="add_item_Click"/>
+            &nbsp;
+            <asp:Button ID="Back" runat="server" Height="70px" Text="Back" Width="200px" style="font-size:large;" OnClick="Back_Click"/>
             <br />
             <br />
             <br />

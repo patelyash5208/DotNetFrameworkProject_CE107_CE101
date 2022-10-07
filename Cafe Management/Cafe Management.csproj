@@ -102,6 +102,7 @@
     <Compile Include="dashboard.aspx.designer.cs">
       <DependentUpon>dashboard.aspx</DependentUpon>
     </Compile>
+    <Compile Include="function.cs" />
     <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
